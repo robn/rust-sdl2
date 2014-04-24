@@ -14,7 +14,7 @@ Rust-SDL2 uses the MIT license.
 
 # Installation
 
-Clone this repo, run `rustc src/lib.rs`.
+Clone this repo, run `rustc src/lib.rs`. To see an example of the code in use, `rustc -L. demo.rs`.
 
 # When things go wrong
 Rust, and Rust-SDL2, are both still heavily in development, and you may run into teething issues when using this. Before panicking, check that you're using the latest Master branch of Rust, check that you've updated Rust-SDL to the latest version, and run `make clean` and `./configure`. If that fails, please let us know on the issue tracker.
